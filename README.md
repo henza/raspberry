@@ -1,1 +1,4 @@
-# raspberry
+#Raspberry robot 
+
+#Python tarkvara installimine
+
