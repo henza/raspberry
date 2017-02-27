@@ -10,6 +10,8 @@ Veendu et sul on olemas kõik vajalikud osad. Kui midagi on puudu anna sellest t
 
 ![Teine](http://i64.tinypic.com/2vtwsh0.jpg)
 
+![Chassis](https://raw.githubusercontent.com/simonmonk/wiki_images/master/rrb_robot_chassis_parts.jpg)
+
 Roboti komplektiga oli kaasas ka juhend mootorite ja rataste kinnitamiseks
 
 ##Python tarkvara installimine
@@ -22,7 +24,9 @@ cd raspberry/python
 sudo python setup.py install
 ```
 
+### Todo
+-[]Script Automation
+-[]Add updated python script to repo
+-[]
 
 
-
-![Chassis](https://raw.githubusercontent.com/simonmonk/wiki_images/master/rrb_robot_chassis_parts.jpg)
