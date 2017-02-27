@@ -25,8 +25,8 @@ sudo python setup.py install
 ```
 
 ### Todo
-- [ ]Script Automation
-- [ ]Add updated python script to repo
+- [ ] Script Automation
+- [ ] Add updated python script to repo
 - [ ]
 
 
