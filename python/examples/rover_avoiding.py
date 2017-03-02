@@ -25,12 +25,14 @@ try:
     while True:
         distance = rr.get_distance()
         print(distance)
-        if distance < 50 and running:
+        if distance < 15 and running:
             turn_randomly()
         if running:
-            rr.forward(0)
+            rr.reverse(0)
         if rr.sw2_closed():
-            running = not running
+            running = False
+        if not rr.sw2_closed():
+            running = True
         if not running:
             rr.stop()
         time.sleep(0.2)
