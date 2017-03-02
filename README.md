@@ -24,28 +24,28 @@ cd raspberry/python
 sudo python setup.py install
 ```
 
-### Todo
-- [ ] Script Automation
-- [ ] Add updated python script to repo
 
-Auto Login Setup (optional)
+
+##Auto login seadistamine
 
 The first step is to enable the Pi to login automatically without requiring any user intervention. This step is optional.
 
 At the command prompt or in a terminal window type :
-
+```
 sudo raspi-config
+```
 followed by Enter.
 
 Select “Boot Options” then “Desktop/CLI” then “Console Autologin”
 
 
-Auto-run Script Setup
+##Python programmi automaatne käivitamine
 
-Now we need to tell the operating system to run the script for the Pi user. In the command prompt or in a terminal window type :
-
+Ava terminal ja sisesta :
+```
 sudo nano /etc/profile
-Scroll to the bottom and add the following line :
-
+```
+Faili lõppu lisa järgnev rida:
+```
 sudo python ~/Desktop/examples/rover_avoiding.py
-
+```
