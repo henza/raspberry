@@ -28,15 +28,13 @@ sudo python setup.py install
 
 ##Auto login seadistamine
 
-The first step is to enable the Pi to login automatically without requiring any user intervention. This step is optional.
-
-At the command prompt or in a terminal window type :
+Ava terminal ja sisesta :
 ```
 sudo raspi-config
 ```
-followed by Enter.
+ja vajuta enter
 
-Select “Boot Options” then “Desktop/CLI” then “Console Autologin”
+Vali “Boot Options” ja siis “Desktop/CLI” ning “Console Autologin”
 
 
 ##Python programmi automaatne käivitamine
