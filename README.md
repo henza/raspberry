@@ -65,7 +65,7 @@ sudo raspi-config
 ```
 ja vajuta enter
 
-Vali “Boot Options” ja siis “Desktop/CLI” ning “Console Autologin”
+Vali “Boot Options” ja siis “Desktop/CLI” ning “Console Autologin”. Kui see on valitud, siis vali "Finish" ja "Reboot now"
 
 
 ##Python programmi automaatne käivitamine
