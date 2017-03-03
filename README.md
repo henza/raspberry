@@ -2,17 +2,24 @@
 
 ##Roboti komplekteerimine
 
-Veendu et sul on olemas kõik vajalikud osad. Kui midagi on puudu anna sellest teada CodeSchool juhendajale.
+Veendu et sul on olemas kõik vajalikud osad.
 
-![Komponendid](http://i68.tinypic.com/1z5kd41.jpg)
+- Mälukaart
+- Raspberry
+- Roboti raam, rattad, kaks mootorit
+- RaspiBoard
+- Sensor
 
-![Esimene](http://i65.tinypic.com/2akh0l5.jpg)
+Vajalikud kaablid ja muud pisiajsad jagame jooksvalt. 
 
-![Teine](http://i64.tinypic.com/2vtwsh0.jpg)
 
-![Chassis](https://raw.githubusercontent.com/simonmonk/wiki_images/master/rrb_robot_chassis_parts.jpg)
+Roboti komplektiga oli kaasas ka juhend mootorite ja rataste kinnitamiseks. Järgi seda juhendit ja alusta komplekteerimist.
 
-Roboti komplektiga oli kaasas ka juhend mootorite ja rataste kinnitamiseks
+###Tinutamine
+
+Kui sul on juhtmed ühendatud, leia üles Indrek, kes aitab tinutada. 
+
+
 
 ##Python tarkvara installimine
 
@@ -81,5 +88,9 @@ sudo python ~/Desktop/raspberry/python/examples/rover_avoiding.py
 Nano editorist väljumiseks vajuta klaviatuuril Ctrl+O ja siis Enter, väljumiseks Ctrl+X
 
 
-Nüüd testime, kas script hakkab automaatselt tööle kui Raspberry 
+Nüüd testime, kas script hakkab automaatselt tööle kui Raspberry käivitub. Selleks sisesta järgmine käsklust Raspberry taaskäivitamiseks:
+
+```
+sudo reboot now
+```
 
