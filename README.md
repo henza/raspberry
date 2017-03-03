@@ -13,8 +13,6 @@ Veendu et sul on olemas kõik vajalikud osad.
 Vajalikud kaablid ja muud pisiajsad jagame jooksvalt. 
 
 
-Roboti komplektiga oli kaasas ka juhend mootorite ja rataste kinnitamiseks. Järgi seda juhendit ja alusta komplekteerimist.
-
 ###Tinutamine
 
 Kui sul on juhtmed ühendatud, leia üles Indrek, kes aitab tinutada. 
