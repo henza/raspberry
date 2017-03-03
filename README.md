@@ -81,5 +81,5 @@ sudo python ~/Desktop/raspberry/python/examples/rover_avoiding.py
 Nano editorist väljumiseks vajuta klaviatuuril Ctrl+O ja siis Enter, väljumiseks Ctrl+X
 
 
-Nüüd testime, kas 
+Nüüd testime, kas script hakkab automaatselt tööle kui Raspberry 
 
