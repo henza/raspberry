@@ -74,5 +74,10 @@ sudo nano /etc/profile
 ```
 Faili lõppu lisa järgnev rida:
 ```
-sudo python ~/Desktop/examples/rover_avoiding.py
+sudo python ~/Desktop/raspberry/python/examples/rover_avoiding.py
 ```
+Nano editorist väljumiseks vajuta klaviatuuril Ctrl+O ja siis Enter, väljumiseks Ctrl+X
+
+
+Nüüd testime, kas 
+
