@@ -17,12 +17,41 @@ Roboti komplektiga oli kaasas ka juhend mootorite ja rataste kinnitamiseks
 ##Python tarkvara installimine
 
 Kõigepealt veendu et sinu Raspberry on ühendatud internetiga. Siis ava terminal ja sisesta järgnevad käsklused.
+
+Esimene käsklus navigeerib Raspberry Deskptop kausta
 ```
-$cd ~
+cd Desktop
+```
+Teise käsklusena sisesta "ls", mis kuvab Desktop kaustas kõik failid, hetkel peaks see tühi olema
+```
+ls
+```
+
+Järgmine käsklus kopeerib Githubist roboti jaoks vaja minevad failid
+```
 git clone https://github.com/henza/raspberry.git
+```
+Kui nüüd sisestada uuesti käsklus "ls" siis kuvab terminal sulle kõik failid Desktop kaustas ja sinna peaks olema tekkinud uus kaust nimega raspberry
+```
+ls
+```
+Nüüd avame raspberry kaustas oleva faili python
+```
 cd raspberry/python
+```
+Enne kui saame Python faile oma Raspberrys kasutada peame installima vajaliku tarkvara. 
+```
 sudo python setup.py install
 ```
+Nüüd testime, kas oleme roboti õigesti kokku pannud ja kas mootorid hakkavad tööle
+Selleks navigeerime kausta examples ja käivitame faili rover_avoiding.py. 
+
+```
+cd examples
+ls
+python rover_avoiding.py
+```
+Kui kõik töötab, siis peaks ekraanil hakkama jooksma numbrid, mis tulevad sensorist ja kui takistusi pole hakkavad mootorid tööle
 
 
 
