@@ -51,7 +51,9 @@ cd examples
 ls
 python rover_avoiding.py
 ```
-Kui kõik töötab, siis peaks ekraanil hakkama jooksma numbrid, mis tulevad sensorist ja kui takistusi pole hakkavad mootorid tööle
+Kui kõik töötab, siis peaks ekraanil hakkama jooksma numbrid, mis tulevad sensorist ja kui takistusi pole hakkavad mootorid tööle.
+
+Programmi töö katkestamiseks vajuta Crtl+C
 
 
 
