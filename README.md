@@ -92,3 +92,7 @@ Nüüd testime, kas script hakkab automaatselt tööle kui Raspberry käivitub. 
 sudo reboot now
 ```
 
+Navigeeri examples kausta
+```
+sudo nano rover_avoiding.py
+```
