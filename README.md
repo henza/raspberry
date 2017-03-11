@@ -1,4 +1,4 @@
-#Raspberry robot 
+#CodeSchool - Raspberry robot 
 
 ##Roboti komplekteerimine
 
@@ -92,7 +92,10 @@ Nüüd testime, kas script hakkab automaatselt tööle kui Raspberry käivitub. 
 sudo reboot now
 ```
 
-Navigeeri examples kausta
+Kui oled robotit nüüd mõnd aega testinud märkad, et robot pöörab suhteliselt kaootiliselt. Selleks, et seda muuta, peame konfigureerima Python skripti mis käsib robotil pöörata kui takistus teele jääb. 
+
+Proovi nüüd terminalis navigeeride kausta Examples ja sisesta järgmine käsklus. Siinkohal mainin ka et kui sul tekib küsimus mida mingi käsklus tähendab siis pane sama käsklus Googlesse. 
+
 ```
 sudo nano rover_avoiding.py
 ```
