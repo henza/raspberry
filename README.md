@@ -145,6 +145,11 @@ finally:
     rr.cleanup()
 ```
 
+#Esimene ülesanne!
+
+Eesmärk: Robot peab iseseivalt sõitma kolmnurkselt marsuudil. 
+
+
 
 
 Motor (High Level Interface)
