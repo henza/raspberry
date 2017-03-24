@@ -144,3 +144,56 @@ finally:
     print("Exiting")
     rr.cleanup()
 ```
+
+
+
+Motor (High Level Interface)
+
+There are two levels of command for controlling the motors. There is a high level interface that assumes that the motors are connected to wheels on a rover. These commands are forward, reverse, left, right and stop.
+
+rr.forward()
+
+… will start both motors running in the same direction to move the robot rover forwards. They will continue in this direction until another command is issued.
+
+If you want to move forward for a certain amount of time, you can specify a number of seconds as an optional first argument. If you supply a second parameter between 0 and 1 this will control the speed of the motor. This is set to 0.5 as a defaut. If you want the motors to run indefinately, but also want to control the speed, then use 0 as the first patrameter.
+
+Some examples:
+
+rr.forward()       # forward half speed indefinately
+rr.forward(5)      # forward for 5 seconds at half speed
+rr.forward(5, 1)   # forward for 5 seconds at full speed
+The commands left, right and reverse all work in the same way.
+
+The stop command stops all the motors.
+
+Stepper Motor Interface
+
+There RRB3 can be used to drive a single bipolar stepper motor with one coil connected to the L motor driver and the other to the R terminals.
+
+Two commands are available to make the motor step in one direction or the other:
+
+rr.step_forward(5, 200)  # step in one direction for 200 steps with a 5ms delay between each phase change
+rr.set_reverse(5, 200)   # other direction
+Motor (Low Level Interface)
+
+The low level interface is intended for control of the motors directly. It allows you to control the speed of each motor and its direction independently.
+
+The method for this (set_motors) takes four arguments: the left speed, left motor direction, right spped and direction.
+
+So to set both motors going forward at full speed, you would just use the following:
+
+rr.set_motors(1, 0, 1, 0)
+
+.. and half speed would be:
+
+rr.set_motors(0.5, 0, 0.5, 0)
+
+to send the motors both at half speed in opposite directions is:
+
+rr.set_motors(0.5, 1, 0.5, 0)
+
+Range Finder
+
+If you fit the RRB3 with an SR-04 ultrasonic rangefinder, then you can use the following call to measure the distance to the enarest obstacle in cm.
+
+rr.get_distance()
