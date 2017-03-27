@@ -149,7 +149,7 @@ finally:
 
 Eesmärk: Robot peab iseseivalt sõitma kolmnurkselt marsuudil. 
 
-Alustuseks joonista põrandale võrdkülgne kolmnurk, mille üks külg on 1m. Hetkel me ei pane robotit joont järgima, vaid kirjutame skripti, mis juhib robotit. 
+Alustuseks joonista põrandale võrdkülgne kolmnurk, mille üks külg on 1m. Hetkel me ei pane robotit joont järgima, vaid kirjutame skripti, mis juhib robotit. Hetkel ei oska robot veel joont järgida, sest selleks puudub vajalik sensor, vaid kasutame joont et seadistada skripti nii et robot liiguks vajaliku distantsi ja siis pööraks õiges suunas.
 
 Skripti alguses me impordime `from rrb3 import *` tarkvara, mis aitab meil mootoreid kontrollida. Peamised käsklused on `forward`, `reverse`, `left`, `right`, `stop`.
 
@@ -169,6 +169,8 @@ Käsklused `left`, `right`, `reverse` töötavad samamoodi.
 
 Ultraheli sensor
 
-Kasutades funktsiooni `rr.get_distance()` mõõdab sensor kauguse otse ees asuvast objektist sentimeetrites. Hetkel meil ei ole sensorit tarvis, aga võid igaksjuhuks lisada tingimuse, et kui kaugus objektist on väheb kui 15cm, siis pöörab robot ennast ümber.
+Kasutades funktsiooni `rr.get_distance()` mõõdab sensor kauguse otse ees asuvast objektist sentimeetrites. Hetkel meil ei ole sensorit tarvis, aga võid igaksjuhuks lisada tingimuse, et kui kaugus objektist on väheb kui 15cm, siis pöörab robot ennast ümber. Seda oleks vaja selleks et vältida millelegi otsa sõitmist.
 
-Nüüd on aeg katsetada
+Nüüd on aeg katsetada!
+
+Kui sul tekib küsimusi või jääd millegagi hätta, siis anna meile teada.
