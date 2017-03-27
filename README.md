@@ -169,6 +169,6 @@ Käsklused `left`, `right`, `reverse` töötavad samamoodi.
 
 Ultraheli sensor
 
-Kasutades funktsiooni `rr.get_distance()` mõõdab sensor kauguse otse ees asuvast objektist sentimeetrites.
+Kasutades funktsiooni `rr.get_distance()` mõõdab sensor kauguse otse ees asuvast objektist sentimeetrites. Hetkel meil ei ole sensorit tarvis, aga võid igaksjuhuks lisada tingimuse, et kui kaugus objektist on väheb kui 15cm, siis pöörab robot ennast ümber.
 
 Nüüd on aeg katsetada
