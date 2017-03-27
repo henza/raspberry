@@ -174,4 +174,4 @@ Kasutades funktsiooni `rr.get_distance()` mõõdab sensor kauguse otse ees asuva
 
 Nüüd on aeg katsetada!
 
-Kui sul tekib küsimusi või jääd millegagi hätta, siis anna meile teada.
+Kui sul tekib küsimusi või jääd millegagi hätta, siis anna meile teada. Ja kui sinu robot on valmis ja liigub mööda etteantud joont, tee sellest video, ning saada meile. Lisaks võid emailile lisada ka oma Python skripti, millest robot juhindub.
