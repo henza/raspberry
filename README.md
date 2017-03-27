@@ -158,10 +158,11 @@ Näiteks, kuime tahame et robot hakkaks otse liikuma, kasutame `rr.forward()`. S
 Kui sa soovid, et robot liiguks otse ainult teatud aja, siis seda saame täpsustada esimese argumendiga `rr.forward(aeg, kiirus(0-1))`. Teine argument on kiirus, mis vaikimisi on 0.5 ehk pool maksimaalsest kiirusest. 
 
 Mõned näited:
-
-rr.forward()       # Robot liigub otse, kuni järgmise käskluseni, poole kiirusega
-rr.forward(5)      # Robot liigub otse, 5 sekundit, poole kiirusega
-rr.forward(5, 1)   # Robot liigub otse, 5 sekundit, täis kiirusega
+```
+rr.forward()        Robot liigub otse, kuni järgmise käskluseni, poole kiirusega
+rr.forward(5)       Robot liigub otse, 5 sekundit, poole kiirusega
+rr.forward(5, 1)    Robot liigub otse, 5 sekundit, täis kiirusega
+```
 Käsklused `left`, `right`, `reverse` töötavad samamoodi.
 
 `rr.stop()` käsklus peatab mõlemad mootorid.
